@@ -1,0 +1,116 @@
+body{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.head{
+    background-color: #f9b3e4;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 4px 10px rgba(122, 1, 128, 0.6);
+    text-align: center;
+    width: 30%;
+}
+
+.head h1 {
+    color: #8d188d;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+th, td {
+    margin: 1%;
+    padding: 10px;
+    border: 2px solid rgb(134, 20, 149);
+    border-radius: 15px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+.tablecontainer{
+    width: 50%;;
+    box-shadow: 0px 10px 15px rgba(224, 149, 206, 0.6);
+    border-radius: 8px;
+    min-width: 300px;
+    display: inline-block;
+}
+
+tbody{
+    border-radius:10px ;
+}
+
+form{
+    margin-top: 20px;
+    font-size: 20px;
+    width: 50%;
+    padding: 10px;
+    min-width: 500px;
+}
+input , select{
+    font-size: 22px;
+    border-radius: 20px;
+    
+}
+.strong{
+    font-weight: 200;
+    color: rgb(14, 2, 2);
+}
+button{
+    margin-top: 20px;
+    background-color: #e78ce5;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    border: solid  bluevioletb(130, 16, 143) 0.5px ;
+    cursor: pointer;
+    transition: all 0.3s ease;
+   
+}
+button:hover{
+    box-shadow: 10px 10px 15px rgba(224, 37, 196, 0.5);
+    background-color: brg(154, 69, 234);
+}
+
+
+
+
+#resultat{
+    margin-top: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 00px;
+}
+
+#bent{
+    text-decoration: none;
+    ;
+    color: rgb(237, 10, 215);
+    padding: 10px;
+    border: #d961b9 solid 1px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    box-shadow: 0px 10px 15px rgba(216, 43, 135, 0.2);
+    background-color: #d39fc3;
+}
+#bent:hover{
+    box-shadow: 0px 10px 15px rgba(222, 164, 206, 0.5);
+    background-color: white;
+}

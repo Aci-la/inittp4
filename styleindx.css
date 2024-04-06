@@ -1,0 +1,32 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    background-color: #f9b3e4;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 1px 4px 10px rgba(122, 1, 128, 0.6);
+    text-align: center;
+    width: 50%;
+}
+.title h1 {
+    color: #8d188d;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.title p {
+    color: #680568;
+    font-size: 19px;
+    line-height: 1.5;
+  }
+  button{
+    
+  }
+    
